@@ -4,12 +4,20 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+
+  @media (max-width:600px) {
+    font-size: 50%
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif !important;
 }
 
 .App-header {
-  height: 40vh;
+  height: 60rem;
   width: 100vw;
   background-image: linear-gradient(rgb(14, 1, 1), rgb(36, 54, 82));
   background-size: cover;
@@ -20,20 +28,20 @@ body {
 }
 
 .layer2 {
-  height: 40vh;
+  height: 60rem;
   background-image: linear-gradient(rgb(8, 7, 77), rgb(2, 9, 20));
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 70%);
 }
 
 .title {
-  font-size: 24 px;
+  font-size: 2.4rem;
   color: rgb(223, 224, 233);
   font-weight: 300;
-  padding: 30px;
+  padding: 3rem;
   animation: moveInLeft 0.8s ease-out;
 }
 .desc {
-  font-size: 18 px;
+  font-size: 1.8 rem;
   color: rgb(223, 224, 233);
   font-weight: 300;
   animation: moveInRight 0.8s ease-out;
@@ -41,7 +49,7 @@ body {
 
 .body {
   background-color: rgb(223, 224, 233);
-  height: 60vh;
+  height: 80rem;
   text-align: center;
   margin-top: -10vh;
 }
@@ -79,12 +87,12 @@ body {
 .btn {
   display: inline-block;
   background-color: rgb(36, 54, 82);
-  font-size: 30px;
+  font-size: 3rem;
   padding: 3.6vh;
   color: rgb(223, 224, 233);
   height: 9vh;
   width: 17vh;
-  margin: 150px;
+  margin: 15rem;
   border-radius: 10px;
   transition: all 0.2s;
 }
@@ -100,22 +108,21 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .footer {
-  height: 10vh;
+  height: 20rem;
   background-color: rgb(2, 9, 20);
 }
 
 .list {
   height: 5vh;
-  
+
   text-align: center;
-  
 }
 li {
   border-top: 1px solid rgb(223, 224, 233);
   display: inline-block;
-  padding: 2.5vh;
-  margin-top: 2vh;
-  font-size: 18px;
+  padding: 3.7rem;
+  margin-top: 4rem;
+  font-size: 1.8rem;
 }
 
 a:link,

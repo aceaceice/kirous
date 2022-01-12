@@ -1,15 +1,19 @@
 .about-section {
-  height: 60vh;
-  margin-top: -10vh;
+  height: 90rem;
+  margin-top: -20rem;
 
   background-color: rgb(223, 224, 233);
 }
 .about-text {
   color: rgb(36, 54, 82);
-  font-size: 28px;
-  top: 20vh;
-  padding-top: 16%;
-  padding-left: 35%;
-  padding-right: 35%;
+  font-size: 2.8rem;
+  top: 34rem;
+  padding-top: 37rem;
+  padding-left: 45rem;
+  padding-right: 45rem;
   position: absolute;
+
+  @media (max-width: 1200px) {
+    font-size: 3px;
+  }
 }
