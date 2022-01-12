@@ -13,8 +13,15 @@ const Btn = () => {
         >
           Mainnet
         </div>
-        <div className="testnet btn">Testnet</div>
-        <div>{net ? "TBD" : ""}</div>
+        <div
+          className="testnet btn"
+          onClick={() => {
+            setNet(true);
+          }}
+        >
+          Testnet
+        </div>
+        <div className="TBD">{net ? "TBD" : ""}</div>
       </div>
     </div>
   );
