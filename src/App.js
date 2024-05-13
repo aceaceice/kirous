@@ -17,15 +17,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Btn />} />
-          <Route path="about" element={<About />} />
           <Route path="*" element={<Btn />} />
         </Routes>
       </BrowserRouter>
       <footer className="footer">
         <ul className="list">
-          <li>
-            <a href="about">About us</a>
-          </li>
           <li>
             <a href="mailto:ask@kirous.gq">Contact us</a>
           </li>
