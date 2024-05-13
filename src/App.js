@@ -23,7 +23,7 @@ function App() {
       <footer className="footer">
         <ul className="list">
           <li>
-            <a href="mailto:ask@kirous.gq">Contact us</a>
+            <a href="mailto:toxicrain138@gmail.com">Contact</a>
           </li>
         </ul>
       </footer>
